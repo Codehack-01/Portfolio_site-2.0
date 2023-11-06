@@ -780,8 +780,8 @@ h2 {
 .social-media {
     position: relative;
     margin-right: 1rem;
-    font-family: var(--font-1);
-    font-weight: 800;
+    font-family: 'Oxanium', cursive;
+    font-weight: 900;
     font-size: 1.25rem;
     letter-spacing: 1px;
     line-height: 100%;
