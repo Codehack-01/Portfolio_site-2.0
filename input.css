@@ -755,8 +755,8 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-.socials-text {
-    /* animation: shine 2s linear infinite alternate; */
+/* .socials-text {
+    /* animation: shine 2s linear infinite alternate; *
     font-family: 'Oxanium', cursive;
     font-style: normal;
     color: transparent;
@@ -770,7 +770,7 @@ h2 {
     
     
     font-weight: 800;
-}
+} */
 
 .social-ul-lg {
     display: flex;
@@ -792,7 +792,7 @@ h2 {
     background-position: center bottom;
     background-size: 100% 0%;
     background-repeat: no-repeat;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #f3f4f6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s ease-in;
