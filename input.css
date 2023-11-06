@@ -711,7 +711,7 @@ h2 {
     bottom: 0;
     width: 0;
     height: 1px;
-    /* background: linear-gradient(#0d1117,#2ea043,#56d364); */
+    
     
     background-color: rgb(0, 255, 0);
     transition: width 0.25s ease-out;
