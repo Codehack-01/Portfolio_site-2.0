@@ -652,8 +652,6 @@ h2 {
     top: 0;
     height: 100% !important;
     width: 100% !important;
-    /* height: 30px !important;
-    width: 30px !important; */
     background-color: #ffa28b;
     filter: blur(18px);
     z-index: -1 !important;
