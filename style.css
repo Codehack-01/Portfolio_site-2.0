@@ -1,0 +1,28 @@
+.text2 {
+    font-size: 5rem;
+}
+
+:root {
+    --foreground-rgb: 255,255,255;
+    --background-start-rgb: 0,0,0;
+    --background-end-rgb: 0,0,0;
+}
+.grad {
+    /* color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,transparent,rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+    background-image: radial-gradient((#0E2A66),(#02050C),(#02050C));
+}
+body {
+    margin: 0;
+    line-height: inherit;
+}
+
+/* .background-image: radial-gradient(var(--chakra-colors-brand-800), var(--chakra-colors-brand-100), var(--chakra-colors-brand-100));
+}; */
+
+/* .logo img{
+    width: 50px;
+} */
+.menu2 {
+    
+}
