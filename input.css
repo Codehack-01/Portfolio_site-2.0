@@ -462,7 +462,9 @@ h2 {
 
     100% {
         width: 100%;
-        height: max-content;
+        /* height: max-content; */
+        height: 100vh;
+        overflow: hidden;
         top: 0;
         right: 0;
         padding: 6.5rem 2.5rem;
@@ -471,6 +473,7 @@ h2 {
         opacity: 1;
         transform: scale(1);
         background-color: #3b82f6;
+        /* background-color: #000000; */
     }
 }
 
