@@ -773,12 +773,12 @@ video {
   gap: 1rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1792,6 +1792,42 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: .3s ease-in;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.btn.btn-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #000;
+  border-radius: 7px;
+  border: #d1d5db 1px solid;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.btn.btn-hover:hover::before,
+.btn.btn-hover:focus::before {
+  transform: scaleX(1);
+}
+
+.btn.btn-hover{
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.btn.btn-hover:hover,
+.btn.btn-hover:focus {
+  color: #fff;
 }
 
 .hover\:text-darkGrayishBlue:hover {
