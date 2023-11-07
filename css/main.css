@@ -1140,20 +1140,84 @@ body {
 }
 
 .nav2-text {
-  font-family: 'Oxanium', cursive;
-  font-style: normal;
-  color: transparent;
-  -webkit-text-stroke: 0.1rem #fff;
   position: relative;
-  letter-spacing: 0px;
-  line-height: 100%;
-  font-size: 2.5rem;
+  /* margin-right: 1rem; */
+  font-family: 'Oxanium', cursive;
   font-weight: 800;
+  line-height: 100%;
+  cursor: pointer;
+  background-position: center bottom;
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .3s ease-in;
 }
+
+.nav2-text:hover {
+  background-size: 100% 100%;
+  -webkit-text-stroke: #fff;
+}
+
+.nav2-link {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  background-image: linear-gradient(#fff,#fff);
+  background-color: #3b82f6;
+  -webkit-text-stroke: 0.125rem #fff;
+}
+
+/* .nav2-text {
+    font-family: 'Oxanium', cursive;
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem #fff;
+    position: relative;
+    letter-spacing: 0px;
+    line-height: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background-size: 100% 0%; 
+    background-image: linear-gradient(#fff,#fff); 
+    transition: .3s ease-in;
+    
+}  */
+
+/* .nav2-text:hover{
+    background-size: 100% 100%;
+
+} */
+
+/* .nav2-text {
+    position: relative;
+    margin-right: 1rem;
+    font-family: 'Oxanium', cursive;
+    font-weight: 900;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 100%;
+    cursor: pointer;
+    color: #fcfcfc;
+    background-image: linear-gradient(#fff,#fff);
+    background-color: #3b82f6;
+    background-position: center bottom;
+    background-size: 100% 0%;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 1px #f3f4f6;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .3s ease-in;
+}
+
+.nav2-text:hover {
+    background-size: 100% 100%;
+    -webkit-text-stroke: 0.1px  #fff;
+} */
 
 .nav_showcase {
   animation: nav_burst-in  .55s ease-in-out forwards;
-  gap: 3.5rem;
+  gap: 2rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -1580,8 +1644,6 @@ h2 {
 .icon i {
   color: #fff;
   font-size: 1.5rem;
-  /* height: 30px;
-    width: 30px; */
 }
 
 .Gradient ::before, ::after{
@@ -1784,6 +1846,7 @@ h2 {
   line-height: 100%;
   cursor: pointer;
   color: #fcfcfc;
+  background-image: linear-gradient(#fff,#fff);
   background-color: transparent;
   background-position: center bottom;
   background-size: 100% 0%;
@@ -1793,6 +1856,34 @@ h2 {
   -webkit-text-fill-color: transparent;
   transition: .3s ease-in;
 }
+
+.social-media:hover{
+  background-size: 100% 100%;
+  -webkit-text-stroke: 0.1px  #fff;
+}
+
+/* .nav2-text {
+    font-family: 'Oxanium', cursive;
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem #fff;
+    position: relative;
+    letter-spacing: 0px;
+    line-height: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    
+}  */
+
+/* .social-media:hover{
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke:  #fff;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+} */
 
 .btn {
   position: relative;
