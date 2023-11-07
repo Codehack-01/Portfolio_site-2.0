@@ -83,7 +83,7 @@ body {
 
 .nav2-text:hover {
     background-size: 100% 100%;
-    -webkit-text-stroke: #fff;
+    -webkit-text-stroke:0.1px #fff;
 }
 .nav2-link {
     font-size: 3rem;
