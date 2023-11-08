@@ -1236,6 +1236,13 @@ body {
   transform: scale(0);
 }
 
+/* .nav_showcase{
+    animation: nav_burst-in  .55s ease-in-out forwards;
+    opacity: 0;
+    z-index: -10;
+    
+} */
+
 @keyframes nav_burst-in {
   0% {
     border-radius: 100px 0 100px 100px;
