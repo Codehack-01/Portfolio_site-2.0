@@ -91,7 +91,8 @@ body {
     letter-spacing: 2px;
     margin-top: 1rem;
     background-image: linear-gradient(#fff,#fff);
-    background-color: #3b82f6;
+    /* background-color: #3b82f6; */
+    background-color: #2563eb;
     -webkit-text-stroke: 0.125rem #fff;
 }
 /* .nav2-text {
@@ -148,6 +149,15 @@ body {
     right: 0;
     flex-direction: column;
     align-items: flex-end;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 100px 0 100px 100px;
+    z-index: -10;
+    opacity: 0;
+    overflow: hidden;
+    transform-origin: top right;
+    transform: scale(0);
     
 } 
 
@@ -157,8 +167,9 @@ body {
         padding: 0;
         z-index: -10;
         opacity: 0;
-        /* background-color: #bfdbfe; */
-        background-color: #d434fe;
+        background-color: #bfdbfe;
+        /* background-color: #bae6fd; */
+        
     }
 
     1% {
@@ -180,8 +191,8 @@ body {
         z-index: 9;
         opacity: 1;
         transform: scale(1);
-        /* background-color: #3b82f6; */
-        background-color: #150e28;
+        background-color: #2563eb;
+        
     }
 }
 
