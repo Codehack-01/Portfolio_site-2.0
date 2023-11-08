@@ -81,7 +81,8 @@ body {
     transition: .3s ease-in;
 }
 
-.nav2-text:hover {
+.nav2-text:hover,
+.nav2-text.active {
     background-size: 100% 100%;
     -webkit-text-stroke:0.1px #fff;
 }
