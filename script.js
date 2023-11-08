@@ -1,3 +1,12 @@
+// const NavLinksClose = document.querySelectorAll('#menu a')
+
+// NavLinksClose.forEach(link => {
+//   link.addEventListener('click', function() {
+//     document.getElementById('menu').style.display('none');
+//   });
+// });
+
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav .mobile-nav a');
 window.onscroll = () => {
@@ -29,20 +38,23 @@ window.addEventListener('scroll', () => {
 
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
+// const NavLinksClose = document.querySelectorAll('#menu a')
 
 
 btn.addEventListener('click', () => {
   btn.classList.toggle('open')
   nav.classList.toggle('flex')
   nav.classList.toggle('hidden')
+  // NavLinksClose.toggle('hidden')
     
 })
-// const NavLinksClose = document.querySelectorAll('header nav .mobile-nav a')
+
+// const NavLinksClose = document.querySelectorAll('#menu')
 
 // NavLinksClose.forEach(link => {
-// link,addEventListener('click', function() {
-//   document.getElementById('menu').nav.classList.toggle('none');
-// });
+//   link.addEventListener('click', function() {
+//     document.getElementById('menu').style.display('none');
+//   });
 // });
 
 
