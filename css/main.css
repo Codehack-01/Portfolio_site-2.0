@@ -1165,8 +1165,8 @@ body {
   letter-spacing: 2px;
   margin-top: 1rem;
   background-image: linear-gradient(#fff,#fff);
-  /* background-color: #3b82f6; */
-  background-color: #2563eb;
+  background-color: #3b82f6;
+  /* background-color: #2563eb; */
   -webkit-text-stroke: 0.125rem #fff;
 }
 
@@ -1265,7 +1265,8 @@ body {
     z-index: 9;
     opacity: 1;
     transform: scale(1);
-    background-color: #2563eb;
+    background-color: #3b82f6;
+    /* background-color: #2563eb; */
   }
 }
 
