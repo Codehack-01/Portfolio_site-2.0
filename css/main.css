@@ -1186,32 +1186,6 @@ body {
     
 }  */
 
-/* .nav2-text:hover{
-    background-size: 100% 100%;
-
-} */
-
-/* .nav2-text {
-    position: relative;
-    margin-right: 1rem;
-    font-family: 'Oxanium', cursive;
-    font-weight: 900;
-    font-size: 1.25rem;
-    letter-spacing: 1px;
-    line-height: 100%;
-    cursor: pointer;
-    color: #fcfcfc;
-    background-image: linear-gradient(#fff,#fff);
-    background-color: #3b82f6;
-    background-position: center bottom;
-    background-size: 100% 0%;
-    background-repeat: no-repeat;
-    -webkit-text-stroke: 1px #f3f4f6;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .3s ease-in;
-}*/
-
 .nav_showcase {
   animation: nav_burst-in  .55s ease-in-out forwards;
   gap: 2rem;
