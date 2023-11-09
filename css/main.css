@@ -1210,12 +1210,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s ease-in;
-}
-
-.nav2-text:hover {
-    background-size: 100% 100%;
-    -webkit-text-stroke: 0.1px  #fff;
-} */
+}*/
 
 .nav_showcase {
   animation: nav_burst-in  .55s ease-in-out forwards;
