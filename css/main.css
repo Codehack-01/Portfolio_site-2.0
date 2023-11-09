@@ -1236,10 +1236,6 @@ h2 {
   font-style: normal;
 }
 
-/* .nav-css {
-    position: fixed;
-} */
-
 .bg-gradient-radial {
   background-image: radial-gradient(var(--tw-gradient-stops));
 }
