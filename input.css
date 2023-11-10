@@ -880,3 +880,7 @@ h2 {
 .btn.btn-hover:focus {
     color: #fff;
 }
+
+.project-links a i:hover{
+    color: #6b7280;
+}

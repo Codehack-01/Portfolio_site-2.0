@@ -1873,6 +1873,10 @@ h2 {
   color: #fff;
 }
 
+.project-links a i:hover{
+  color: #6b7280;
+}
+
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
