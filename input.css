@@ -116,6 +116,8 @@ body {
 
 
 
+
+
 .nav_showcase {
     animation: nav_burst-in  .55s ease-in-out forwards;
     gap: 2rem;
@@ -772,11 +774,21 @@ h2 {
     
 } 
 
-.social-ul{
+/* .social-ul{
     text-decoration: none;
     text-align: center;
     align-items: center;
     justify-content: center;
+} */
+.social-ul {
+    text-decoration: none;
+}
+
+.socials ul {
+    
+    justify-content: center;
+    text-align: center;
+    /*align-items: center; */
 }
 /* .socials-text {
     /* animation: shine 2s linear infinite alternate; *
