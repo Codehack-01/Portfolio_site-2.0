@@ -10,10 +10,15 @@ body {
     font-family: 'Oxanium', cursive;
     font-family: 'Kumbh Sans', sans-serif;
     font-feature-settings: "kern";
+    /* overflow-y: auto;
+    height: 100vh; */
     
 
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
 
 .css-text2 {
     animation: shine 2s linear infinite alternate;;
