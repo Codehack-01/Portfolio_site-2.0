@@ -1162,7 +1162,8 @@ body {
 
 .desk-nav:hover,
 .desk-nav.active {
-  color: #2ea043;
+  color: #fff;
+  font-weight: 600;
 }
 
 .nav2-link {
@@ -1172,6 +1173,12 @@ body {
   background-image: linear-gradient(#fff,#fff);
   background-color: #3b82f6;
   -webkit-text-stroke: 0.125rem #fff;
+}
+
+.mobile-nav {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .nav_showcase {
