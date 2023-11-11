@@ -1200,7 +1200,6 @@ body {
     z-index: -10;
     opacity: 0;
     background-color: #bfdbfe;
-    /* background-color: #bae6fd; */
   }
 
   1% {
@@ -1212,7 +1211,6 @@ body {
 
   100% {
     width: 100%;
-    /* height: max-content; */
     height: 100vh;
     overflow: hidden;
     top: 0;
@@ -1223,7 +1221,6 @@ body {
     opacity: 1;
     transform: scale(1);
     background-color: #3b82f6;
-    /* background-color: #2563eb; */
   }
 }
 
