@@ -86,6 +86,13 @@ body {
     background-size: 100% 100%;
     -webkit-text-stroke:0.1px #fff;
 }
+.desk-nav:hover,
+.desk-nav.active {
+    color: #2ea043;
+}
+
+
+
 .nav2-link {
     font-size: 3rem;
     letter-spacing: 2px;
