@@ -1090,6 +1090,10 @@ body {
   font-feature-settings: "kern";
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
 .css-text2 {
   animation: shine 2s linear infinite alternate;
   font-family: 'Oxanium', cursive;
