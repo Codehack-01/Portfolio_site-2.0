@@ -1138,7 +1138,7 @@ body {
   position: relative;
   /* margin-right: 1rem; */
   font-family: 'Oxanium', cursive;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 100%;
   cursor: pointer;
   background-position: center bottom;
@@ -1177,22 +1177,29 @@ body {
 }
 
 .nav_showcase {
-  animation: nav_burst-in  .55s ease-in-out forwards;
-  gap: 2rem;
+  /* animation: nav_burst-in  .55s ease-in-out forwards; */
+  gap: 0.5rem;
   position: absolute;
-  top: 0;
-  right: 0;
   flex-direction: column;
   align-items: flex-end;
   width: 30px;
   height: 30px;
   padding: 0;
   border-radius: 100px 0 100px 100px;
-  z-index: -10;
-  opacity: 0;
-  overflow: hidden;
   transform-origin: top right;
   transform: scale(0);
+  /* background-color: #3b82f6; */
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  padding: 6.5rem 2.5rem;
+  border-radius: 0;
+  z-index: 9;
+  opacity: 1;
+  transform: scale(1);
+  background-color: #3b82f6;
 }
 
 @keyframes nav_burst-in {
