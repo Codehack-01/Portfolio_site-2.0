@@ -6,14 +6,7 @@
 //   });
 // });
 
-// let desksections = document.querySelectorAll('section');
-// let navLinks2 = document.querySelectorAll('header nav .desktop-nav a');
 
-// function hideNav() {
-//   var mobileNav = document.querySelector ('.nav_showcase a');
-  
-//   Navbar.classList.add('hidden')
-// }
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav .mobile-nav a, header nav .desktop-nav a');
