@@ -1105,9 +1105,6 @@ body {
   -webkit-mask-size: 200%;
           mask-size: 200%;
   position: relative;
-  /* letter-spacing: 0px; */
-  /* line-height: 100%; */
-  /* font-size: rem; */
   font-weight: 800;
 }
 
