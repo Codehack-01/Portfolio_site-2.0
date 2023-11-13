@@ -753,11 +753,11 @@ h2 {
 
 
 
-/* .hover-line {
+.hover-line {
     display: inline-block;
-    /* padding-bottom: 0.25rem; *
+    /* padding-bottom: 0.25rem; */
     position: relative;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 }
 
 .hover-line::before{
@@ -776,7 +776,7 @@ h2 {
 .hover-line:hover::before {
     width: 100%;
     
-} */
+}
 
 .proj_card {
     display: inline-block;
