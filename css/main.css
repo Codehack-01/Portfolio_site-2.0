@@ -1155,6 +1155,7 @@ body {
 .nav2-text.active {
   background-size: 100% 100%;
   -webkit-text-stroke:0.1px #fff;
+  outline: none;
 }
 
 .desk-nav:hover,
