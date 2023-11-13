@@ -1147,6 +1147,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: .3s ease-in;
+  text-decoration: none;
   /* justify-content: center;
     align-items: center; */
 }
@@ -1176,6 +1177,7 @@ body {
   background-image: linear-gradient(#fff,#fff);
   background-color: #3b82f6;
   -webkit-text-stroke: 0.125rem #fff;
+  text-decoration: none;
   /* justify-content: center;
     align-items: center; */
 }
