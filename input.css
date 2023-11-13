@@ -775,6 +775,7 @@ h2 {
 
 .hover-line:hover::before {
     width: 100%;
+    
 }
 
 .about-css i {
