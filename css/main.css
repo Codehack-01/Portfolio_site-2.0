@@ -1771,12 +1771,13 @@ h2 {
   display: inline-block;
   /* padding-bottom: 0.25rem; */
   position: relative;
-  border-radius: 2rem;
+  overflow: hidden;
+  /* border-radius: 2rem; */
 }
 
 .proj_card::before{
   content: "";
-  position: absolute;
+  position:absolute;
   left: 0;
   bottom: 0;
   width: 0;
@@ -1787,6 +1788,8 @@ h2 {
 
 .proj_card:hover::before {
   width: 100%;
+  /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 .about-css i {
