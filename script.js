@@ -43,15 +43,22 @@ window.addEventListener('scroll', () => {
 
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
-
+const mobileNavLinks = document.querySelectorAll ('.nav2-link')
 
 btn.addEventListener('click', () => {
   btn.classList.toggle('open')
   nav.classList.toggle('flex')
   nav.classList.toggle('hidden')
+   
+});
 
-    
-})
+mobileNavLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.add('hidden')
+    btn.classList.remove('open')
+  });
+});
+
 
 // const NavLinksClose = document.querySelectorAll('#menu')
 
