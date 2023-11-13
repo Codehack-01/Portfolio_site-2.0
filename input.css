@@ -89,6 +89,7 @@ body {
     background-size: 100% 100%;
     -webkit-text-stroke:0.1px #fff;
     outline: none;
+    box-shadow: none;
 }
 .desk-nav:hover,
 .desk-nav.active {
@@ -109,7 +110,7 @@ body {
     background-color: #3b82f6;
     
     -webkit-text-stroke: 0.125rem #fff;
-    text-decoration: none;
+    box-shadow: none;
     
     /* justify-content: center;
     align-items: center; */
