@@ -1147,7 +1147,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: .3s ease-in;
-  outline: none;
   /* justify-content: center;
     align-items: center; */
 }
@@ -1172,7 +1171,6 @@ body {
   background-image: linear-gradient(#fff,#fff);
   background-color: #3b82f6;
   -webkit-text-stroke: 0.125rem #fff;
-  outline: none;
   /* justify-content: center;
     align-items: center; */
 }
@@ -1183,6 +1181,7 @@ body {
   gap: 0.5rem;
   /* text-align: center; */
   justify-content: center;
+  outline: none;
 }
 
 .nav_showcase {
