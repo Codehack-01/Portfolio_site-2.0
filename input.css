@@ -823,23 +823,6 @@ h2 {
 
 
 
-/* .socials-text {
-    /* animation: shine 2s linear infinite alternate; *
-    font-family: 'Oxanium', cursive;
-    font-style: normal;
-    color: transparent;
-    -webkit-text-stroke: 0.125rem #fff;
-    
-    mask-image: linear-gradient(-75deg,rgba(0,0,0,.6) 30%,#000 50%,rgba(0,0,0,.6) 70%);
-    mask-size: 200%;
-    position: relative;
-    letter-spacing: 0px;
-    line-height: 100%;
-    
-    
-    font-weight: 800;
-} */
-
 .social-ul-lg {
     display: flex;
     justify-content: flex-end;
