@@ -1094,6 +1094,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* section {
+    height: 100vh;
+} */
+
 body {
   font-family: 'Oxanium', cursive;
   font-family: 'Kumbh Sans', sans-serif;
@@ -1615,6 +1619,14 @@ h2 {
   color:#7ee787;
 }
 
+.skill-color2 {
+  color: #ffa28b;
+}
+
+.About-color{
+  color: rgb(79, 183, 252);
+}
+
 .icon1-gradient {
   position: absolute;
   left: 0;
@@ -1708,13 +1720,13 @@ h2 {
   background: linear-gradient(#0d1117,  rgb(29, 112, 238), rgb(79, 183, 252) );
 }
 
-.skill-color2 {
-  color: #ffa28b;
+/* .skill-color2 {
+    color: #ffa28b;
 }
 
 .About-color{
-  color: rgb(79, 183, 252);
-}
+    color: rgb(79, 183, 252);
+} */
 
 .icon2-gradient {
   position: absolute;
