@@ -9,7 +9,7 @@ splitTypes.forEach((char, i) => {
             trigger: char,
             start: 'top 80%',
             end: 'top 20%',
-            scrub: false,
+            scrub: true,
             markers: false,
             
         }
