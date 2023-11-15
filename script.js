@@ -1,6 +1,44 @@
+gsap.registerPlugin(ScrollTrigger)
+const splitTypes = document.querySelectorAll('.reveal-type')
+splitTypes.forEach((char, i) => {
+    const text = new SplitType(char, { types: 'chars' })
+    gsap.from(text.chars, {
+        opacity: 0.2,
+        stagger: 0.1,
+        scrollTrigger: {
+            trigger: char,
+            start: 'top 80%',
+            end: 'top 20%',
+            scrub: true,
+            markers: false,
+            
+        }
+    })
+})
+
+
+
+
+
+
 // gsap.registerPlugin(ScrollTrigger)
 // const splitTypes = document.querySelectorAll('.reveal-type')
 
+// splitTypes.forEach((char,i) => {
+//   const text = new SplitType(char, { types: 'chars'})
+
+//   gsap.from(text.chars, {
+//     ScrollTrigger: {
+//       trigger: char,
+//       start: 'top 80%',
+//       end: 'top 20%',
+//       scrub: true,
+//       markers: false
+//     },
+//     opacity: 0.2,
+//     stagger: 0.1
+//   })
+// })
 // splitTypes.forEach((char,i) => {
 //   const bg = char.dataset.bgColor
 //   const fg = char.dataset.fgColor
