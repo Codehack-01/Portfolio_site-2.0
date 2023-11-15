@@ -7,9 +7,9 @@ splitTypes.forEach((char, i) => {
         stagger: 0.1,
         scrollTrigger: {
             trigger: char,
-            start: 'top 60%',
-            end: 'top 40%',
-            scrub: true,
+            start: 'top 80%',
+            end: 'top 20%',
+            scrub: false,
             markers: false,
             
         }
