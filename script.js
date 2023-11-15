@@ -8,7 +8,7 @@ splitTypes.forEach((char, i) => {
         scrollTrigger: {
             trigger: char,
             start: 'top 90%',
-            end: 'top 0%',
+            end: 'top 20%',
             scrub: true,
             markers: false,
             
@@ -75,26 +75,26 @@ splitTypes.forEach((char, i) => {
 
 
 
-// let sections = document.querySelectorAll('section');
-// let navLinks = document.querySelectorAll('header nav .mobile-nav a, header nav .desktop-nav a');
-// // let navLinks2 = document.querySelectorAll('header nav .desktop-nav a');
-// window.onscroll = () => {
-//     sections.forEach(sec => {
-//         let top = window.scrollY;
-//         let offset = sec.offsetTop - 150;
-//         let height = sec.offsetHeight;
-//         let id = sec.getAttribute('id');
-//         if(top >= offset && top < offset + height) {
-//             navLinks.forEach(links => {
-//                 links.classList.remove('active');
-//                 document.querySelector('header nav .mobile-nav a[href*=' + id + ']').classList.add('active');
-//                 document.querySelector('header nav .desktop-nav a[href*=' + id + ']').classList.add('active');
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav .mobile-nav a, header nav .desktop-nav a');
+// let navLinks2 = document.querySelectorAll('header nav .desktop-nav a');
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav .mobile-nav a[href*=' + id + ']').classList.add('active');
+                document.querySelector('header nav .desktop-nav a[href*=' + id + ']').classList.add('active');
                 
-//             });
-//         }; 
+            });
+        }; 
         
-//     });
-// };
+    });
+};
 
 window.addEventListener('scroll', () => {
   const header = document.getElementById('navbar');
