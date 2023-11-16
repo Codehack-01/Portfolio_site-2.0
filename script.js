@@ -73,6 +73,11 @@ window.addEventListener('scroll', () => {
     }
 });
 
+const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 800, // Adjust the scrolling speed as needed
+  speedAsDuration: true,
+});
+
 
 function initGSAPAnimation() {
   gsap.registerPlugin(ScrollTrigger);
@@ -89,10 +94,50 @@ function initGSAPAnimation() {
               end: 'top 20%',
               scrub: true,
               markers: false,
-              toggleActions: 'play play play play',
-          }
+              toggleActions: 'play play play play',  
+          },
       });
   });
 }
 
 initGSAPAnimation();
+
+
+
+// export default function scroll() {
+//   const lenis = new Lenis({
+//     duration: 1.6,
+//     easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+//     infinite: false,
+//     smooth: true,
+//   });
+
+//   function raf(time: number) {
+//     lenis.raf(time);
+//     requestAnimationFrame(raf);
+//   }
+
+//   requestAnimationFrame(raf);
+// }
+
+// const lenis = new Lenis()
+// lenis.on('scroll', (e) => {
+//   console.log(e)
+// })
+// function raf(time) {
+//   lenis.raf(time)
+//   requestAnimationFrame(raf)
+// }
+// requestAnimationFrame(raf)
+
+// const lenis = new Lenis ({
+//   duration: 1.2,
+//   easing: (t) => Math.min(1, 1.001 - Math.pow(2,-10 * t))
+// });
+
+// function raf(time) {
+//   lenis.raf(time)
+//   // ScrollTrigger.update();
+//   requestAnimationFrame(raf)
+// }
+// requestAnimationFrame(raf)
