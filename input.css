@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 /* html {
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -17,7 +17,7 @@ html {
     height: auto;
 } */
 
-#Skills {
+/* #Skills {
     min-height: 1296px;
 }
 
@@ -27,7 +27,7 @@ html {
 
 #About {
     min-height: 2310px;
-}
+} */
 
 body {
     
