@@ -5,10 +5,10 @@
 /* html {
     scroll-behavior: smooth;
 } */
-html {
+/* html {
     overflow-y: scroll;
     scroll-behavior: smooth;
-}
+} */
 /* body, html {
     scroll-snap-type: none;
 } */
