@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
-body, html {
+/* body, html {
     scroll-snap-type: none;
-}
+} */
 
 /* section {
     height: auto;

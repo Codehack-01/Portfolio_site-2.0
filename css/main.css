@@ -1090,13 +1090,13 @@ video {
   transition-duration: 150ms;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* html {
+    scroll-behavior: smooth;
+} */
 
-body, html {
-  scroll-snap-type: none;
-}
+/* body, html {
+    scroll-snap-type: none;
+} */
 
 /* section {
     height: auto;

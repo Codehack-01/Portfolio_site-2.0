@@ -49,6 +49,7 @@ const nav = document.getElementById('menu')
 const mobileNavLinks = document.querySelectorAll ('.nav2-link')
 
 btn.addEventListener('click', () => {
+  
   btn.classList.toggle('open');
   nav.style.display = (nav.style.display === 'flex') ? 'none' : 'flex';
 });
@@ -84,8 +85,8 @@ function initGSAPAnimation() {
           stagger: 0.1,
           scrollTrigger: {
               trigger: char,
-              start: 'top 90%',
-              end: 'top 10%',
+              start: 'top 80%',
+              end: 'top 20%',
               scrub: true,
               markers: false,
               toggleActions: 'play play play play',
