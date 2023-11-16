@@ -1098,9 +1098,9 @@ body, html {
   scroll-snap-type: none;
 }
 
-section {
-  height: auto;
-}
+/* section {
+    height: auto;
+} */
 
 body {
   font-family: 'Oxanium', cursive;
