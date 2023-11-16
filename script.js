@@ -16,11 +16,8 @@ splitTypes.forEach((char, i) => {
             toggleActions: 'play play play play',
 
             onEnter: () => {
-              console.log('Entering section');
+              gsap.to(window, { scrollTo: { y: char, offsetY: 0 } });
             },
-            onLeaveBack: () => {
-              console.log('Leaving section');
-            }
             
         }
     })
