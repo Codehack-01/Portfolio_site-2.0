@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body, html {
+    scroll-snap-type: none;
+}
+
 section {
     height: auto;
 }
