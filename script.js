@@ -94,7 +94,7 @@ function initGSAPAnimation() {
               end: 'top 20%',
               scrub: true,
               markers: false,
-              toggleActions: 'play play play play',  
+              // toggleActions: 'play play play play',  
           },
       });
   });
@@ -117,7 +117,7 @@ function initGSAPAnimation2() {
               end: 'top 20%',
               scrub: true,
               markers: false,
-              toggleActions: 'play play play play',  
+              // toggleActions: 'play play play play',  
           },
       });
   });
