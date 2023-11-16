@@ -1,6 +1,6 @@
 
 
-// gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 const splitTypes = document.querySelectorAll('.reveal-type')
 splitTypes.forEach((char, i) => {
     const text = new SplitType(char, { types: 'chars' })
@@ -13,6 +13,7 @@ splitTypes.forEach((char, i) => {
             end: 'top 10%',
             scrub: true,
             markers: false,
+            toggleActions: 'play play play play',
 
             onEnter: () => {
               console.log('Entering section');
