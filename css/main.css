@@ -1090,9 +1090,9 @@ video {
   transition-duration: 150ms;
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 /* html {
     overflow-y: scroll;
@@ -1106,6 +1106,18 @@ video {
 /* section {
     height: auto;
 } */
+
+#Skills {
+  min-height: 1296px;
+}
+
+#Projects {
+  min-height: 2680px;
+}
+
+#About {
+  min-height: 2310px;
+}
 
 body {
   font-family: 'Oxanium', cursive;
