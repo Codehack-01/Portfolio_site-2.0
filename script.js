@@ -1,8 +1,6 @@
-document.addEventListener('touchmove', function (e) {
-  e.preventDefault();
-});
 
-gsap.registerPlugin(ScrollTrigger)
+
+// gsap.registerPlugin(ScrollTrigger)
 const splitTypes = document.querySelectorAll('.reveal-type')
 splitTypes.forEach((char, i) => {
     const text = new SplitType(char, { types: 'chars' })
@@ -11,10 +9,17 @@ splitTypes.forEach((char, i) => {
         stagger: 0.1,
         scrollTrigger: {
             trigger: char,
-            start: 'top 70%',
-            end: 'top 30%',
+            start: 'top 90%',
+            end: 'top 10%',
             scrub: true,
             markers: false,
+
+            onEnter: () => {
+              console.log('Entering section');
+            },
+            onLeaveBack: () => {
+              console.log('Leaving section');
+            }
             
         }
     })
