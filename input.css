@@ -2,39 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Navbar */
-
-/* Logo */
-
-/* Desktop Menu */
-
-/* Button hover */
-
-/* Toggle Button */
-
-/* Mobile Menu */
-
-/* HOME Left side-bar */
-
-/* HOME Right side-bar */
-
-/* Section 2 Heading */
-
-/* Section 2 Items */
-
-/* Section 3 Heading */
-
-/* Section 3 items */
-
-/* Section 4 Heading */
-
-/* Section 4 items */
-
-/* Get In Touch */
-
-/* Socials Mobile */
-
-/* Socials desktop */
 
 body {
     
@@ -99,7 +66,6 @@ body {
 
 .nav2-text {
     position: relative;
-    /* margin-right: 1rem; */
     font-family: 'Oxanium', cursive;
     font-weight: 700;
     line-height: 100%;
@@ -112,8 +78,6 @@ body {
     transition: .3s ease-in;
     text-decoration: none;
 
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .nav2-text:hover,
@@ -137,15 +101,10 @@ body {
 .nav2-link {
     font-size: 3rem;
     letter-spacing: 2px;
-    /* margin-top: 1rem; */
     background-image: linear-gradient(#fff,#fff);
     background-color: #3b82f6;
-    
     -webkit-text-stroke: 0.125rem #fff;
     
-    
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .mobile-nav {
@@ -153,7 +112,6 @@ body {
     align-items: center ;
     text-align: right;
     gap: 0.5rem;
-    /* text-align: center; */
     justify-content: center;
     outline: none;
 }
@@ -167,8 +125,7 @@ body {
 
 
 .nav_showcase {
-    /* animation: nav_burst-in  .55s ease-in-out forwards; */
-    /* gap: 0.5rem; */
+    
     position: absolute; 
     top: 0;
     right: 0;
@@ -177,22 +134,14 @@ body {
     overflow: hidden;
     transform-origin: top right;
     transform: scale(0);
-    /* background-color: #3b82f6; */
-
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    /* top: 0;
-    right: 0; */
     padding: 6.5rem 2.5rem;
-    /* border-radius: 0; */
-    /* z-index: 9;
-    opacity: 1; */
     transform: scale(1);
     background-color: #3b82f6;
     
 } 
-
 
 
 @keyframes nav_burst-in {
@@ -202,7 +151,6 @@ body {
         z-index: -10;
         opacity: 0;
         background-color: #bfdbfe;
-        
         
     }
 
@@ -233,8 +181,6 @@ body {
 .nav-css {
     position: fixed;
 }
-
-
 
 
 h2 {
@@ -278,19 +224,16 @@ h2 {
         z-index: 10;
         transition: 0.25s;
         transition: background .35s ease-in-out;
-        /* background: #fff; */
+        
     }
 
     .Gradient {
         border-radius: 9999px;
-        /* width: 150px;
-        height: 150px; */
         width: 100px;
         height: 100px;
         background: #2164f3;
         opacity: 0.5;
         position: absolute;
-        /* top: 960px; */
         top: 800px;
         filter: blur(70px);
         bottom: 0;
@@ -309,9 +252,8 @@ h2 {
     .developer-image {
         position: relative;
         width: 15rem;
-        /* width: 70%; */
         height: 20rem;
-        /* object-fit: cover; */
+        
     }
 
     .developer-image::before {
@@ -340,20 +282,15 @@ h2 {
 
 @media screen and  (min-width:767px) {
     .developer-image{
-        /* width: 25rem;
-        height: 33rem; */
         width: 80%;
         height: 33rem;
         object-fit: cover;
         position: relative;
         
-        /* object-fit: cover; */
     }
     .developer-image::before {
         position: absolute;
         content: ' ';
-        /* right: -30px;
-        top: 30px; */
         border: 3px solid rgb(29, 112, 238);
         width: 100%;
         height: 100%;
@@ -371,20 +308,16 @@ h2 {
 
 @media screen and  (min-width:1280px) {
     .developer-image{
-        /* width: 25rem;
-        height: 33rem; */
+        
         width: 60%;
         height: 35rem;
         object-fit: cover;
         position: relative;
         
-        /* object-fit: cover; */
     }
     .developer-image::before {
         position: absolute;
         content: ' ';
-        /* right: -30px;
-        top: 30px; */
         border: 3px solid rgb(29, 112, 238);
         width: 100%;
         height: 100%;
@@ -405,13 +338,11 @@ h2 {
         
         width: auto;
         height: auto;
-        
         align-items: flex-end;
     }
     
     .img-container img{
         
-        /* border-radius:25rem 25rem 0 0; */
         border: 1px solid #374151;
         width: auto;
         height: auto;
@@ -429,14 +360,11 @@ h2 {
 
     .Gradient2 {
         border-radius: 9999px;
-        /* width: 150px;
-        height: 150px; */
         width: 100px;
         height: 100px;
         background: #2164f3;
         opacity: 0.5;
         position: absolute;
-        /* top: 960px; */
         top: 700px;
         filter: blur(30px);
         bottom: 0;
@@ -458,7 +386,6 @@ h2 {
     }
     
     .img-container img{
-        /* border-radius:25rem 25rem 0 0; */
         border: 2px solid #374151;
         width: 100%;
         height: 100%;
@@ -694,11 +621,10 @@ h2 {
     padding: 0;
 }
 .card-icon {
-    /* display: flex; */
+    
     align-items: center;
     justify-content: center;
-    /* height: 4rem;
-    width: 4rem; */
+    
 }
 
 
@@ -716,7 +642,7 @@ h2 {
 }
 
 .background2 {
-    /* height: 160px; */
+    
     background: linear-gradient(#0d1117, #ea6045, #ffa28b);
 }
 
@@ -735,15 +661,6 @@ h2 {
 }
 
 
-
-
-/* .skill-color2 {
-    color: #ffa28b;
-}
-
-.About-color{
-    color: rgb(79, 183, 252);
-} */
 
 .icon2-gradient {
     position: absolute;
@@ -770,9 +687,9 @@ h2 {
     transform: translateZ(0);
 }
 
-.img-container2 {
+/* .img-container2 {
     
-}
+} */
 
 .img-container2 img{
     border-radius:0.65rem 0.65rem 0 0;
@@ -929,3 +846,4 @@ h2 {
 .project-links a i:hover{
     color: #6b7280;
 }
+
