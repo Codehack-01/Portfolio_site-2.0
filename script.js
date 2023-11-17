@@ -107,20 +107,23 @@ function initGSAPAnimation2() {
   
   const splitTypes = document.querySelectorAll('.reveal-type2');
   splitTypes.forEach((char, i) => {
-      const text = new SplitType(char, { types: 'chars' });
-      gsap.from(text.chars, {
+      const text = new SplitType(char, { types: 'words' });
+      gsap.from(text.words, {
           // opacity: 0.2,
           // stagger: 0.1,
           scrollTrigger: {
               trigger: char,
               start: 'top 80%',
               end: 'top 20%',
-              scrub: true,
+              scrub: false,
               markers: false,
+              duration: 0.2,
+              repeat: -1,
+              restartOnScrub: true,
               // toggleActions: 'play play play play',  
           },
           scaleY: 0,
-          y: -20,
+          y: 20,
           transformOrigin: 'top',
           stagger: 0.1
       });
