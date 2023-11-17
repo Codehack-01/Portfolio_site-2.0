@@ -18,13 +18,14 @@
     />
     
 
-    <title>Document</title>
+    <title>Ademola | Pragmatic Frontend Engineer</title>
   </head>
   <body class="bg-black">
     <header
       class="relative z-50 w-full nav-css top-0 transition-all z-50 px-6 mx-auto bg-black/70 backdrop-blur-md backdrop-filter"
       id=""
     >
+      <!-- Navbar -->
       <nav class="relative container p-6 mx-auto text-white nav-padding">
         <div class="flex items-center justify-between">
           <!-- Logo -->
@@ -35,7 +36,7 @@
               ></span>
             </h1>
           </div>
-          <!-- Menu Items -->
+          <!--Desktop Menu -->
           <div class="desktop-navabr">
             <div id="" class="hidden md:flex md:space-x-10 lg:space-x-16 text-gray-200  desktop-nav">
               <a  class="desk-nav active" href="#Home">Home</a>
@@ -46,13 +47,13 @@
             </div>
           </div>
           
-          <!-- Button -->
+          <!--Desktop Navbar Button -->
           
           <button class="p-3 px-6 pt-2 text-white bg-Blue rounded baseline  hidden md:flex btn btn-hover">
             <a href="#">Get In Touch</a>
           </button>
           
-          
+          <!-- Toggle button -->
           <button
             id="menu-btn"
             class="block hamburger md:hidden focus:outline-none"
@@ -82,12 +83,13 @@
       ></div>
     </header>
 
+    <!-- HOME -->
     <section id="Home" class="pt-16">
       <!-- Flex Container -->
       <div
         class="container flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
-        <!-- Left item -->
+        <!-- Left Side-Bar -->
         <div class="flex flex-col mb-3 space-y-9 md:w-1/2 md:space-y-12 md:my">
           <p class="greetings text-xl text-darkGrayishBlue md:text-2xl">
             Yo!<span class="peace">✌🏽</span>, Meet
@@ -115,7 +117,8 @@
             
           </div>
         </div>
-        <!-- Images -->
+        <!--Right Side-Bar-->
+        <!-- Desktop View -->
         <div class="hero-right md:w-1/2 flex flex-col">
           <div class="pt md:pt-0 z-10 img-container relative">
             <img src="img/portfolioimg1.jpg" class="" alt="" />
@@ -131,7 +134,7 @@
                 <p class="text-sm">Problem Solver👽</p>
               </div>
             </div>
-            <!-- Mobile -->
+            <!-- Mobile View-->
             <div
               class="w-full h-full absolute top-0 left-0 flex items-end justify-center px-32 py-4 lg:hidden"
             >
@@ -144,6 +147,7 @@
               </div>
             </div>
           </div>
+          <!-- Desktop view -->
           <div
             class="w-full h-full absolute top-0 left-0 hidden xl:flex items-center justify-center px-32 py-4"
           >
@@ -165,6 +169,7 @@
       class="pt-32 flex-col container px-6 mx-auto w-full space-y-0 md:space-y-0 mt-10"
     >
       <!-- Flex Container -->
+      <!--Section2 Heading -->
       <div
         class="flex container mx-auto w-full space-y-0 md:space-y-0 mt-10 px-"
       >
@@ -189,6 +194,7 @@
           </div>
         </div>
       </div>
+      <!-- Section2 Items -->
       <div class="text-gray-200 rounded-md border border-gray-700 p-6">
         <h3 class="mb-3 text-white">Frontend Languages and Tools :</h3>
         <div
@@ -313,11 +319,14 @@
       </div>
     </section>
 
+
+    <!-- PROJECTS -->
     <section
       id="Projects"
       class="flex-col container px-6 mx-auto w-full space-y-0 md:space-y-0 mt-10"
     >
       <!-- Flex Container -->
+      <!-- Section3 Heading -->
       <div
         class="flex container mx-auto w-full space-y-0 md:space-y-0 mt-10 px-"
       >
@@ -343,6 +352,7 @@
           </div>
         </div>
       </div>
+      <!-- Section3 Items -->
       <div
         class="text-gray-100 md:rounded-md md:border md:border-gray-700 md:p-6"
       >
@@ -552,10 +562,12 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section
       id="About"
       class="flex-col container px-6 mx-auto w-full space-y-0 md:space-y-0 mt-10 "
     >
+      <!-- Section4 Heading -->
       <div
         class="flex container mx-auto w-full space-y-0 md:space-y-0 mt-10 px-"
       >
@@ -581,6 +593,7 @@
         </div>
       </div>
 
+      <!-- Section 4 items -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
         <div class="developer-image">
           <img src="img/my img.jpg" alt="" />
@@ -641,6 +654,7 @@
         </div>
       </div>
 
+      <!-- Get In Touch -->
       <div class="socials text-white py-14 space-y-6 md:hidden">
         <div class=" ">
           <h2
@@ -665,6 +679,7 @@
         
         
       </div>
+      <!-- Socials mobile -->
       <div class="socials mb-10 md:hidden ">
         <ul class="space-x- text-center flex  social-ul">
           <li class=""><a href="https://twitter.com/ProjectBabyy_01" class="social-media">Twitter</a></li>
@@ -673,9 +688,11 @@
         </ul>
       </div>
     </section>
+    <!-- Footer -->
     <footer
       class="flex-col container px-6 mx-auto w-full space-y-0 md:space-y-0 md:mt-20 mb-10"
     >
+      
       <div class="border-t border-gray-700 my-10 "></div>
       <div class="flex flex-col-reverse text-white mt-10 md:flex-row">
         <div class="flex md:w-1/2 text-center md:text-left text-sm md:hidden text-gray-100">
@@ -684,6 +701,7 @@
         <div class="flex md:w-1/2 text-center md:text-left text-md hidden md:flex text-gray-100">
           Copyright &copy; 2023, Yours Sincerely, Ademola Gbolahan.
         </div>
+        <!-- Socials Desktop -->
         <div class="flex md:w-1/2 hidden md:flex social-ul-lg">
           
           <ul class="space-x-9 text-center align-center text-white  flex text-xl hidden md:flex">

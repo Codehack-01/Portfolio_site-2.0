@@ -102,28 +102,28 @@ function initGSAPAnimation() {
 
 initGSAPAnimation();
 
-function initGSAPAnimation2() {
-  gsap.registerPlugin(ScrollTrigger);
+// function initGSAPAnimation2() {
+//   gsap.registerPlugin(ScrollTrigger);
   
-  const splitTypes2 = document.querySelectorAll('.reveal-type2');
-  splitTypes2.forEach((char, i) => {
-      const text = new SplitType(char, { types: 'chars' });
-      gsap.from(text.chars, {
-          opacity: 0.2,
-          stagger: 0.1,
-          scrollTrigger: {
-              trigger: char,
-              start: 'top 80%',
-              end: 'top 20%',
-              scrub: true,
-              markers: false,
-              // toggleActions: 'play play play play',  
-          },
-      });
-  });
-}
+//   const splitTypes2 = document.querySelectorAll('.reveal-type2');
+//   splitTypes2.forEach((char, i) => {
+//       const text = new SplitType(char, { types: 'chars' });
+//       gsap.from(text.chars, {
+//           opacity: 0.2,
+//           stagger: 0.1,
+//           scrollTrigger: {
+//               trigger: char,
+//               start: 'top 80%',
+//               end: 'top 20%',
+//               scrub: true,
+//               markers: false,
+//               toggleActions: 'play play play play',  
+//           },
+//       });
+//   });
+// }
 
-initGSAPAnimation2();
+// initGSAPAnimation2();
 
 
 

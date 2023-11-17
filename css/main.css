@@ -1090,40 +1090,39 @@ video {
   transition-duration: 150ms;
 }
 
-/* html {
-    scroll-behavior: initial;
-    overflow: hidden;
-} */
+/* Navbar */
 
-/* html, body {
-    width: 100%;
-    height: 100%;
-} */
+/* Logo */
 
-/* html {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-} */
+/* Desktop Menu */
 
-/* body, html {
-    scroll-snap-type: none;
-} */
+/* Button hover */
 
-/* section {
-    height: auto;
-} */
+/* Toggle Button */
 
-/* #Skills {
-    min-height: 1296px;
-}
+/* Mobile Menu */
 
-#Projects {
-    min-height: 2680px;
-}
+/* HOME Left side-bar */
 
-#About {
-    min-height: 2310px;
-} */
+/* HOME Right side-bar */
+
+/* Section 2 Heading */
+
+/* Section 2 Items */
+
+/* Section 3 Heading */
+
+/* Section 3 items */
+
+/* Section 4 Heading */
+
+/* Section 4 items */
+
+/* Get In Touch */
+
+/* Socials Mobile */
+
+/* Socials desktop */
 
 body {
   font-family: 'Oxanium', cursive;
