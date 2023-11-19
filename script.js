@@ -113,7 +113,7 @@ function initGSAPAnimation2() {
           // stagger: 0.1,
           scrollTrigger: {
               trigger: char,
-              start: 'top 50%',
+              start: 'top 30%',
               end: 'top 20%',
               scrub: false,
               markers: false,
